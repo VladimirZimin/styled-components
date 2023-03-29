@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/styled-components/static/js/main.7dda053a.js",
+    "static/media/dela-gothic-one-regular.woff2": "/styled-components/static/media/dela-gothic-one-regular.cb8a383e88170576c851.woff2",
+    "static/media/2.jpg": "/styled-components/static/media/2.de08306b2a04fc235c2d.jpg",
+    "static/media/commissioner-semi-bold.woff2": "/styled-components/static/media/commissioner-semi-bold.59a06dd697d5228d5442.woff2",
+    "static/media/commissioner-regular.woff2": "/styled-components/static/media/commissioner-regular.a3cc6cc5aa79db55f4c4.woff2",
+    "static/media/3.jpg": "/styled-components/static/media/3.0dc3770956e245985aca.jpg",
+    "static/media/1.jpg": "/styled-components/static/media/1.96c8b913f777d57fbea2.jpg",
+    "static/media/6.jpg": "/styled-components/static/media/6.3e6248c1f61f1db8559a.jpg",
+    "static/media/5.jpg": "/styled-components/static/media/5.ed867cbae810dac66165.jpg",
+    "static/media/4.jpg": "/styled-components/static/media/4.3d96f514960dfd4067cd.jpg",
+    "static/media/manrope-bold.woff2": "/styled-components/static/media/manrope-bold.6d1a01b0043f3aab4268.woff2",
+    "static/media/manrope-medium.woff2": "/styled-components/static/media/manrope-medium.e03bf343d03793eb8222.woff2",
+    "static/media/bike-adult.svg": "/styled-components/static/media/bike-adult.6e3c0bcb387288618f014eddf7982de1.svg",
+    "static/media/bike-child.svg": "/styled-components/static/media/bike-child.0e6911de4dd538ed309be852934dfa09.svg",
+    "static/media/logo-adult.svg": "/styled-components/static/media/logo-adult.d170349be2fb67d27148d6be61199a56.svg",
+    "static/media/logo-child.svg": "/styled-components/static/media/logo-child.a6fadc51253eba586d31a762909b10c7.svg",
+    "index.html": "/styled-components/index.html",
+    "main.7dda053a.js.map": "/styled-components/static/js/main.7dda053a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7dda053a.js"
+  ]
+}
