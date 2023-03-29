@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/styled-components/static/js/main.7dda053a.js",
+    "main.js": "/styled-components/static/js/main.f4fc54e8.js",
     "static/media/dela-gothic-one-regular.woff2": "/styled-components/static/media/dela-gothic-one-regular.cb8a383e88170576c851.woff2",
     "static/media/2.jpg": "/styled-components/static/media/2.de08306b2a04fc235c2d.jpg",
     "static/media/commissioner-semi-bold.woff2": "/styled-components/static/media/commissioner-semi-bold.59a06dd697d5228d5442.woff2",
@@ -17,9 +17,9 @@
     "static/media/logo-adult.svg": "/styled-components/static/media/logo-adult.d170349be2fb67d27148d6be61199a56.svg",
     "static/media/logo-child.svg": "/styled-components/static/media/logo-child.a6fadc51253eba586d31a762909b10c7.svg",
     "index.html": "/styled-components/index.html",
-    "main.7dda053a.js.map": "/styled-components/static/js/main.7dda053a.js.map"
+    "main.f4fc54e8.js.map": "/styled-components/static/js/main.f4fc54e8.js.map"
   },
   "entrypoints": [
-    "static/js/main.7dda053a.js"
+    "static/js/main.f4fc54e8.js"
   ]
 }
