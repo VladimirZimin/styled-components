@@ -1,0 +1,79 @@
+import styled, { css } from 'styled-components';
+import { Theme } from '../theme';
+import { Color } from '../tokens/colors';
+import { IconName } from '../tokens/icons';
+import { Icon } from './Icon';
+
+const StyledWrapper = styled.div`
+  position: relative;
+  display: inline-flex;
+`;
+
+const StyledFilter = styled.select`
+  appearance: none;
+  width: 100%;
+  padding-right: 26px;
+  font-size: 16px;
+  line-height: 22px;
+  color: ${Color.WHITE};
+  cursor: pointer;
+
+  + svg {
+    color: ${Color.WHITE};
+  }
+
+  ${({ theme }) =>
+    theme.current === Theme.ADULT
+      ? css`
+          &:hover {
+            color: ${Color.ORANGE_20};
+
+            + svg {
+              color: ${Color.ORANGE_20};
+            }
+          }
+
+          &:focus {
+            color: ${Color.ORANGE_40};
+
+            + svg {
+              color: ${Color.ORANGE_40};
+            }
+          }
+        `
+      : css`
+          &:hover {
+            color: ${Color.GREEN_20};
+
+            + svg {
+              color: ${Color.GREEN_20};
+            }
+          }
+
+          &:focus {
+            color: ${Color.GREEN_40};
+
+            + svg {
+              color: ${Color.GREEN_40};
+            }
+          }
+        `}
+`;
+
+const StyledChevron = styled(Icon).attrs({ name: IconName.CHEVRON_DOWN })`
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+`;
+
+function Filter({ className, label, children }) {
+  return (
+    <StyledWrapper className={className}>
+      <StyledFilter aria-label={label}>{children}</StyledFilter>
+      <StyledChevron />
+    </StyledWrapper>
+  );
+}
+
+export { Filter };
