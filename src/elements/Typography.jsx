@@ -68,7 +68,7 @@ const StyledTypography = styled.div.attrs(({ theme, color }) => {
 })`
   ${({ variant }) => TypographyVariantToCSS[variant]}
 
-  color: ${({ color }) => color};
+  color: ${({ color }) => color}
 `;
 
 export { TypographyVariant, StyledTypography as Typography };
